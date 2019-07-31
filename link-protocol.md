@@ -33,3 +33,4 @@ The name and protocol hint are optional.
  Logo
  19HxigV4QyBv3tHpQVcUEQyq1pzZVdoAut
  ```
+The example refers to a transaction which contains an image using the B:// protocol.
