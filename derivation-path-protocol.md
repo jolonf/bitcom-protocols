@@ -1,8 +1,8 @@
 # Derivation Path Protocol
 
-> Represents an heirarchical deterministic path for use primarily with metanet nodes to determine the derived keys.
+> Represents an hierarchical deterministic path for use primarily with metanet nodes to determine the derived keys.
 
-Metanet node addresses are formed from heirarchical deterministic (HD) keys. The root has the derived key `m/0`, it's children 
+Metanet node addresses are formed from hierarchical deterministic (HD) keys. The root has the derived key `m/0`, its children 
 have the derived keys `m/0`, `m/1`, `m/2`, and so on. To be able to modify a metanet node, i.e. create a new version of the node,
 add children to the node, or modify children of an existing node, the derived private key must be known. To make the metanet graph
 self-contained, the derivation paths can be stored directly in the metanet transactions using the proposed protocol.
