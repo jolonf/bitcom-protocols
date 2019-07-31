@@ -6,7 +6,7 @@ The metanet is a graph consisting of leaf and non-leaf nodes. If a metanet graph
 filesystem structure it is useful to know if a node is intended to represent a directory. This is useful
 for two reasons:
  1. An empty directory, i.e. a node without any children, is indistinguishable from a file.
- 2. It makes determining whether a node is a directory simpler without checking for all of the file protocol possibilities
+ 2. It makes determining whether a node is a directory simpler by removing the need to check all file protocol possibilities.
  
  # Format
  
