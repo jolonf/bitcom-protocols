@@ -1,6 +1,6 @@
 # Directory Protocol
 
-> A protocol that indicates the transaction represents a metanet directory.
+> A protocol that indicates that the transaction represents a metanet directory.
 
 The metanet is a graph consisting of leaf and non-leaf nodes. If a metanet graph is used to represent a 
 filesystem structure it is useful to know if a node is intended to represent a directory. This is useful
