@@ -1,5 +1,6 @@
 # Directory Protocol
 
+> 1FR1dTwavR2exZvy2JxKL2Dv2nCMEMtB5N
 > A protocol that indicates that the transaction represents a metanet directory.
 
 The metanet is a graph consisting of leaf and non-leaf nodes. If a metanet graph is used to represent a 
@@ -11,7 +12,7 @@ for two reasons:
  # Format
  
  ```
- [protocol address] [name]
+ 1FR1dTwavR2exZvy2JxKL2Dv2nCMEMtB5N [name]
  ```
  
  The format simply contains the protocol itself and a name for the directory. Other data can be appended after using pipes.
@@ -26,7 +27,7 @@ for two reasons:
  meta
  [node address]
  [parent txid]
- [directory protocol]
+ 1FR1dTwavR2exZvy2JxKL2Dv2nCMEMtB5N
  myDir
  |
  [derivation path protocol]
