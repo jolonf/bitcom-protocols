@@ -1,6 +1,6 @@
 # Derivation Path Protocol
 
-> Represents an hierarchical deterministic path for use primarily with metanet nodes to determine the derived keys.
+> `179UZJnghXeAMzH4kBRqLpqeoHRaefwyd2` Represents an hierarchical deterministic path for use primarily with metanet nodes to determine the derived keys.
 
 Metanet node addresses are formed from hierarchical deterministic (HD) keys. The root has the derived key `m/0`, its children 
 have the derived keys `m/0`, `m/1`, `m/2`, and so on. To be able to modify a metanet node, i.e. create a new version of the node,
@@ -10,7 +10,7 @@ self-contained, the derivation paths can be stored directly in the metanet trans
 # Format
 
 ```
-[protocol id] [derivation path]
+179UZJnghXeAMzH4kBRqLpqeoHRaefwyd2 [derivation path]
 ```
 
 The derivation path is of the form `m/i/i/i/i...`, where `i` is an integer.
@@ -30,6 +30,6 @@ meta
 [media type]
 [file name]
 |
-[derivation path protocol]
+179UZJnghXeAMzH4kBRqLpqeoHRaefwyd2 // Derivation path protocol
 m/0/1/25/10
 ```
