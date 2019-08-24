@@ -4,7 +4,7 @@
 
 > Attribution metadata for a transaction.
 
-Allows attribution metadata to be added to any transaction. Also includes fields to sponsor/tip the creator. A file may have multiple attribution protocols allowing multiple contributors to be sponsored. 
+Allows attribution metadata to be added to any transaction. Also includes fields to sponsor/tip the creator. A transaction may have multiple attribution protocols allowing multiple contributors to be sponsored. 
 
 # Format
 
