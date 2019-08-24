@@ -4,7 +4,7 @@
 
 > Attribution metadata for a transaction.
 
-Allows attribution metadata to be added to any transaction. Also includes fields to sponsor/tip the creator.
+Allows attribution metadata to be added to any transaction. Also includes fields to sponsor/tip the creator. A file may have multiple attribution protocols allowing multiple contributors to be sponsored. 
 
 # Format
 
@@ -32,7 +32,7 @@ protocols or the attribution is the last protocol in the transaction.
 
 # Example
 
-The following example contains a B protocol file followed by an attribution protocol:
+The following example contains a B protocol file followed by a single attribution protocol:
 
 ```
 OP_FALSE
@@ -52,3 +52,30 @@ vangelis@moneybutton.com
 USD
 ```
 
+This example includes two attribution protocols:
+
+```
+OP_FALSE
+OP_RETURN
+19HxigV4QyBv3tHpQVcUEQyq1pzZVdoAut // B:// file
+[data]
+[media type]
+[encoding]
+[file name]
+|
+14aRXSJYPorVuDNET3CzCWZmKh8K7dfqT7 // Attribution protocol
+Vangelis
+@vangelis
+Copyright 1984
+vangelis@moneybutton.com
+0.10
+USD
+|
+14aRXSJYPorVuDNET3CzCWZmKh8K7dfqT7 // Attribution protocol
+Jon
+@jon
+Copyright 1984
+jon@moneybutton.com
+0.10
+USD
+```
