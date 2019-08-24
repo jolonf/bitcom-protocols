@@ -21,7 +21,7 @@ Allows attribution metadata to be added to any transaction. Also includes fields
 ```
 
 All fields are optional and can contain a single space if not used. 
-Additional fields may be added in the future so it is suggested that the Bitcom | operator is used between
+Additional fields may be added in the future so it is suggested that the Bitcom `|` operator is used between
 protocols or the attribution is the last protocol in the transaction.
 
 - `name` - The name of the contributor, this may not necessarily represent the name of the creator of the content
