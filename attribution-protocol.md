@@ -27,7 +27,7 @@ protocols or the attribution is the last protocol in the transaction.
 - `contact` - Any text can be used for contact including web address, email, social media handle, phone number, etc.
 - `license` - e.g. Creative Commons (e.g. `CC BY`), copyright, GPL, MIT, etc.
 - `sponsor` - BSV or paymail address. Other handles/addresses can be used but may not be supported by the application.
-- `defaultAmount` - Default amount in the specified `currency` to tip. A fixed point number with no currency symbols. Dot `.` separator, no commas `,`. The `defaultAmount` is only a suggestion and the application may not honour it.
+- `defaultAmount` - Default amount in the specified `currency` to tip. The `defaultAmount` is only a suggestion and the application may not honour it. A fixed point number with no currency symbols. Dot `.` separator, no commas `,`.
 - `currency` - Currency of the `defaultAmount`. Applications may use this currency even if the defaultAmount is overridden however it is not required.
 
 # Example
