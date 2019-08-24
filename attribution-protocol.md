@@ -1,8 +1,9 @@
-# Attribution Protocol `14aRXSJYPorVuDNET3CzCWZmKh8K7dfqT7`
+# Attribution Protocol 
 
+> `14aRXSJYPorVuDNET3CzCWZmKh8K7dfqT7`
 > Attribution metadata for a transaction.
 
-Allows attribution metadata to be adde to any transaction. Also includes fields to sponsor/tip the creator.
+Allows attribution metadata to be added to any transaction. Also includes fields to sponsor/tip the creator.
 
 # Format
 
@@ -30,6 +31,7 @@ protocols or the attribution is the last protocol in the transaction.
 
 The following example contains a B Protocol file with an attribution:
 
+```
 OP_FALSE
 OP_RETURN
 19HxigV4QyBv3tHpQVcUEQyq1pzZVdoAut // B:// file
@@ -44,5 +46,5 @@ Vangelis
 vangelis@moneybutton.com
 0.10
 USD
-
+```
 
