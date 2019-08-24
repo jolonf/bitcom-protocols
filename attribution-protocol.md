@@ -12,6 +12,7 @@ Allows attribution metadata to be added to any transaction. Also includes fields
 14aRXSJYPorVuDNET3CzCWZmKh8K7dfqT7
 [name | ' ']
 [contact | ' ']
+[role | ' ']
 [license | ' ']
 [sponsor | ' ']
 [defaultAmount | ' ']
@@ -25,6 +26,7 @@ protocols or the attribution is the last protocol in the transaction.
 
 - `name` - The name of the contributor, this may not necessarily represent the name of the creator of the content
 - `contact` - Any text can be used for contact including web address, email, social media handle, phone number, etc.
+- `role` - Particularly useful if there are multiple attribution protocols. E.g. developer, designer, writer, artist.
 - `license` - e.g. Creative Commons (e.g. `CC BY`), copyright, GPL, MIT, etc.
 - `sponsor` - BSV or paymail address. Other handles/addresses can be used but may not be supported by the application.
 - `defaultAmount` - Default amount in the specified `currency` to tip. The `defaultAmount` is only a suggestion and the application may not honour it. A fixed point number with no currency symbols. Dot `.` separator, no commas `,`.
@@ -46,6 +48,7 @@ OP_RETURN
 14aRXSJYPorVuDNET3CzCWZmKh8K7dfqT7 // Attribution protocol
 Vangelis
 @vangelis
+Composer
 Copyright 1977
 vangelis@moneybutton.com
 0.10
@@ -66,6 +69,7 @@ OP_RETURN
 14aRXSJYPorVuDNET3CzCWZmKh8K7dfqT7 // Attribution protocol
 Vangelis
 @vangelis
+Composer
 Copyright 1984
 vangelis@moneybutton.com
 0.10
@@ -74,6 +78,7 @@ USD
 14aRXSJYPorVuDNET3CzCWZmKh8K7dfqT7 // Attribution protocol
 Jon
 @jon
+Singer
 Copyright 1984
 jon@moneybutton.com
 0.10
