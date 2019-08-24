@@ -12,6 +12,7 @@ Allows attribution metadata to be added to any transaction. Also includes fields
 14aRXSJYPorVuDNET3CzCWZmKh8K7dfqT7
 [name | ' ']
 [contact | ' ']
+[license | ' ']
 [sponsor | ' ']
 [defaultAmount | ' ']
 [currency | ' ']
@@ -24,13 +25,14 @@ protocols or the attribution is the last protocol in the transaction.
 
 - `name` - The name of the contributor, this may not necessarily represent the name of the creator of the content
 - `contact` - Any text can be used for contact including web address, email, social media handle, phone number, etc.
+- `license` - e.g. Creative Commons (e.g. `CC BY`), copyright, GPL, MIT, etc.
 - `sponsor` - BSV or paymail address. Other handles/addresses can be used but may not be supported by the application.
 - `defaultAmount` - Default amount in the specified `currency` to tip. A fixed point number with no currency symbols. Dot `.` separator, no commas `,`. The `defaultAmount` is only a suggestion and the application may not honour it.
 - `currency` - Currency of the `defaultAmount`. Applications may use this currency even if the defaultAmount is overridden however it is not required.
 
 # Example
 
-The following example contains a B Protocol file with an attribution:
+The following example contains a B protocol file followed by an attribution protocol:
 
 ```
 OP_FALSE
@@ -44,6 +46,7 @@ OP_RETURN
 14aRXSJYPorVuDNET3CzCWZmKh8K7dfqT7 // Attribution protocol
 Vangelis
 @vangelis
+Copyright 1977
 vangelis@moneybutton.com
 0.10
 USD
