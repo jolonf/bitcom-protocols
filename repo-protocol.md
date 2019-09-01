@@ -22,6 +22,8 @@ Contains metadata for on chain repositories.
 - `website` - A link to a website for the repo.
 - `github` - A link to the GitHub repo.
 
+If information about the creator of the respository is required add one or more [Attribution Protocols](https://github.com/jolonf/bitcom-protocols/blob/master/attribution-protocol.md).
+
 # Example
 
 ```
