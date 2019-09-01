@@ -13,6 +13,7 @@ Contains metadata for on chain repositories.
 [version]
 [website]
 [github]
+[hidden]
 [...future fields]
 ```
 
@@ -21,6 +22,7 @@ Contains metadata for on chain repositories.
 - `version` - A version string, e.g. '1.0.0'. There is no specific format for the version string, any characters are acceptible.
 - `website` - A link to a website for the repo.
 - `github` - A link to the GitHub repo.
+- `hidden` - (`1` or `0`) If the value is `1` then it is requested that this repo is not returned in search results. This can not be enforced and is only a recommendation.
 
 If information about the creator of the respository is required add one or more [Attribution Protocols](https://github.com/jolonf/bitcom-protocols/blob/master/attribution-protocol.md).
 
@@ -33,4 +35,5 @@ Website for viewing repositories
 1.0.0
 https://codeonchain.network
 https://github.com/jolonf/codeonchain-react
+0
 ```
